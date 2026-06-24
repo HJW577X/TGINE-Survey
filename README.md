@@ -8,12 +8,12 @@ This repository follows the four-layer view of the survey: data resources and be
 
 - [Molecular Representation Learning](#molecular-representation-learning)
 - [Lead Discovery Tasks](#lead-discovery-tasks)
-  - [Drug--Target Interaction and Affinity Prediction](#drugtarget-interaction-and-affinity-prediction-dtidta)
+  - [Drug-Target Interaction and Affinity Prediction](#drugtarget-interaction-and-affinity-prediction-dtidta)
   - [Drug Response Prediction](#drug-response-prediction-drp)
   - [Drug Perturbation Prediction](#drug-perturbation-prediction-dpp)
 - [Property and Safety Assessment](#property-and-safety-assessment)
   - [Molecular Property Prediction](#molecular-property-prediction-mpp)
-  - [Drug--Drug Interaction Prediction](#drugdrug-interaction-prediction-ddi)
+  - [Drug-Drug Interaction Prediction](#drugdrug-interaction-prediction-ddi)
 - [Generative Design Loop](#generative-design-loop)
   - [Molecular Generation](#molecular-generation-mg)
   - [Molecular Optimization](#molecular-optimization-mo)
@@ -28,7 +28,7 @@ Suggested tags: `SMILES`, `2D graph`, `3D graph`, `E(3)/SE(3)-equivariant`, `Gra
 
 ## Lead Discovery Tasks
 
-### Drug--Target Interaction and Affinity Prediction (DTI/DTA)
+### Drug-Target Interaction and Affinity Prediction (DTI/DTA)
 
 DTI/DTA models estimate whether a small molecule interacts with a biological target and, in affinity settings, how strongly this interaction occurs. Recent methods move from independent drug/protein encoding and simple concatenation toward graph-based drug encoders, protein language models, pocket-aware 3D structures, attention-based fusion, knowledge-enhanced learning, and OOD generalization.
 
@@ -151,7 +151,7 @@ MPP estimates physicochemical, quantum-mechanical, pharmacokinetic, and toxicity
 | 2020 | **DimeNet** | International Conference on Learning Representations | 3D graph | GNNs | Regression | [OpenReview](https://openreview.net/forum?id=B1eWbxStPH) |
 | 2020 | **InfoGraph** | International Conference on Learning Representations | 2D graph | GIN | Regression | [OpenReview](https://openreview.net/forum?id=r1lfF2NYvH) |
 
-### Drug--Drug Interaction Prediction (DDI)
+### Drug-Drug Interaction Prediction (DDI)
 
 DDI prediction models synergistic effects, antagonistic interactions, and adverse events induced by combinations of drugs. Recent approaches incorporate graph neural networks, knowledge graphs, contrastive learning, causal inference, reinforcement learning, neural architecture search, and language-model-assisted reasoning.
 

@@ -18,7 +18,6 @@ This repository follows the four-layer view of the survey: data resources and be
   - [Molecular Generation](#molecular-generation-mg)
   - [Molecular Optimization](#molecular-optimization-mo)
 - [Datasets and Benchmarks](#datasets-and-benchmarks)
-- [Repository Structure](#repository-structure)
 
 
 ## Molecular Representation Learning
@@ -332,15 +331,3 @@ The benchmark table is grouped by source collection or downstream task. `Classif
 | PBMCs | Drug--Cell | Regression | 144 / 6 | [Link](https://www.kaggle.com/competitions/open-problems-single-cell-perturbations/data) |
 | CMap | Drug--Cell | Regression | 164 / 5 | [Link](https://clue.io) |
 
-## Repository Structure
-
-```text
-.
-├── assets/              # Taxonomy and framework figures
-├── bib/                 # BibTeX files used to enrich metadata
-├── data/                # Machine-readable paper and dataset metadata
-├── scripts/             # README/data maintenance scripts
-├── README.md            # Curated paper list
-├── CONTRIBUTING.md      # Contribution guideline
-└── CITATION.cff         # Citation metadata
-```

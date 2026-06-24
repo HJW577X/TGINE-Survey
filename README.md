@@ -8,7 +8,7 @@ This repository follows the four-layer view of the survey: data resources and be
 
 - [Molecular Representation Learning](#molecular-representation-learning)
 - [Lead Discovery Tasks](#lead-discovery-tasks)
-  - [Drug-Target Interaction and Affinity Prediction](#drug-target-interaction-and-affinity-prediction-dti-/-dta)
+  - [Drug-Target Interaction and Affinity Prediction](#drug-target-interaction-and-affinity-prediction-dtidta)
   - [Drug Response Prediction](#drug-response-prediction-drp)
   - [Drug Perturbation Prediction](#drug-perturbation-prediction-dpp)
 - [Property and Safety Assessment](#property-and-safety-assessment)

@@ -8,7 +8,7 @@ This repository follows the four-layer view of the survey: data resources and be
 
 - [Molecular Representation Learning](#molecular-representation-learning)
 - [Lead Discovery Tasks](#lead-discovery-tasks)
-  - [Drug-Target Interaction and Affinity Prediction](#drug-target-interaction-and-affinity-prediction-dtidta)
+  - [Drug-Target Interaction and Affinity Prediction](#drugtarget-interaction-and-affinity-prediction-dtidta)
   - [Drug Response Prediction](#drug-response-prediction-drp)
   - [Drug Perturbation Prediction](#drug-perturbation-prediction-dpp)
 - [Property and Safety Assessment](#property-and-safety-assessment)
@@ -28,7 +28,7 @@ Suggested tags: `SMILES`, `2D graph`, `3D graph`, `E(3)/SE(3)-equivariant`, `Gra
 
 ## Lead Discovery Tasks
 
-### Drug Target Interaction and Affinity Prediction (DTI/DTA)
+### Drug-Target Interaction and Affinity Prediction (DTI/DTA)
 
 DTI/DTA models estimate whether a small molecule interacts with a biological target and, in affinity settings, how strongly this interaction occurs. Recent methods move from independent drug/protein encoding and simple concatenation toward graph-based drug encoders, protein language models, pocket-aware 3D structures, attention-based fusion, knowledge-enhanced learning, and OOD generalization.
 

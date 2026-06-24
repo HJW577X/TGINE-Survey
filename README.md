@@ -151,7 +151,7 @@ MPP estimates physicochemical, quantum-mechanical, pharmacokinetic, and toxicity
 | 2020 | **DimeNet** | International Conference on Learning Representations | 3D graph | GNNs | Regression | [OpenReview](https://openreview.net/forum?id=B1eWbxStPH) |
 | 2020 | **InfoGraph** | International Conference on Learning Representations | 2D graph | GIN | Regression | [OpenReview](https://openreview.net/forum?id=r1lfF2NYvH) |
 
-### Drug Drug Interaction Prediction (DDI)
+### Drug-Drug Interaction Prediction (DDI)
 
 DDI prediction models synergistic effects, antagonistic interactions, and adverse events induced by combinations of drugs. Recent approaches incorporate graph neural networks, knowledge graphs, contrastive learning, causal inference, reinforcement learning, neural architecture search, and language-model-assisted reasoning.
 

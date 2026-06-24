@@ -1,27 +1,8 @@
-# Awesome Graph-Structured Small-Molecule Drug Discovery
+# A Comprehensive Survey on Graph-Structured Small-Molecule Drug Discovery and Development with Deep Learning
+A curated paper list for graph-structured small-molecule drug discovery and development with deep learning. 
+This repository follows the four-layer view of the survey: data resources and benchmarks, multi-modal representation learning, task formulation, and downstream application paradigms. 
 
-A curated paper list for graph-structured small-molecule drug discovery and development with deep learning. This repository accompanies the survey:
-
-> **A Comprehensive Survey on Graph-Structured Small-Molecule Drug Discovery and Development with Deep Learning**  
-> Junwei Hu, Wei Zhang, Zhuohao Lin, Jiajun Yu, Jiameng Chen, Jiawei Du, Wenbin Hu, Kun Li, João Gama, and Jia Wu.
-
-![Taxonomy](assets/taxonomy.svg)
-
-## Scope
-
-This repository follows the four-layer view of the survey: data resources and benchmarks, multi-modal representation learning, task formulation, and downstream application paradigms. The current version contains representative papers extracted from the survey tables and enriched with BibTeX metadata plus manually verified publisher/preprint links where available.
-
-### Paper counts
-
-- **DTI/DTA**: 21 papers
-- **DRP**: 20 papers
-- **DPP**: 13 papers
-- **MPP**: 36 papers
-- **DDI**: 20 papers
-- **MG**: 15 papers
-- **MO**: 16 papers
-
-**Metadata status.** 47/141 entries currently use direct DOI, arXiv, OpenReview, ACM/IEEE, PMLR, proceedings, publisher, or other official paper links. Entries without a verified direct link intentionally fall back to Google Scholar. No unverified paper URLs are fabricated.
+![Taxonomy](Framework.png)
 
 ## Table of Contents
 
@@ -38,8 +19,7 @@ This repository follows the four-layer view of the survey: data resources and be
   - [Molecular Optimization](#molecular-optimization-mo)
 - [Datasets and Benchmarks](#datasets-and-benchmarks)
 - [Repository Structure](#repository-structure)
-- [Contributing](#contributing)
-- [Citation](#citation)
+
 
 ## Molecular Representation Learning
 
@@ -135,43 +115,42 @@ MPP estimates physicochemical, quantum-mechanical, pharmacokinetic, and toxicity
 
 | Year | Method | Venue | Representation | Architecture | Tasks | Paper |
 | --- | --- | --- | --- | --- | --- | --- |
-| 2026 | **UniField** | TBD | 3D/ED | Trans. | QM benchmarks ^3Other benchmarks ^1,6 | [arXiv](https://arxiv.org/abs/2605.24013) |
-| 2025 | **E2Former** | NeurIPS | 2/3D graph | GT | OC benchmarks ^1,2Other benchmarks ^4 | [Paper](https://proceedings.neurips.cc/paper_files/paper/2025/file/21f7b745f73ce0d1f9bcea7f40b1388e-Paper-Conference.pdf) |
-| 2025 | **EDG** | Proceedings of the Thirty-Fourth International Joint Conference on Artificial Intelligence | 3D/ED | KD/GNNs | QM benchmarks ^3MD benchmarks ^1Other benchmarks ^6 | [Scholar](https://scholar.google.com/scholar?q=Electron+density-enhanced+molecular+geometry+learning) |
-| 2025 | **GotenNet** | ICLR | 3D graph | GNNs | QM benchmarks ^3MD benchmarks ^2,3Other benchmarks ^8 | [OpenReview](https://openreview.net/forum?id=5wxCQDtbMo) |
-| 2025 | **MolMCL-GCN** | Nature Communications | 2D graph | GT | Classification benchmarks ^2-8 | [Scholar](https://scholar.google.com/scholar?q=Multi-channel+learning+for+integrating+structural+hierarchies+into+context-dependent+molecular+representation) |
-| 2025 | **SCHull** | ICLR | 3D graph | GNNs | MD benchmarks ^1 | [OpenReview](https://openreview.net/forum?id=OIvg3MqWX2) |
-| 2024 | **GraphSAM** | ICLR | 2D graph | GT | Classification benchmarks ^2,3,5,8Regression benchmarks ^1,3 | [OpenReview](https://openreview.net/forum?id=Od39h4XQ3Y) |
-| 2024 | **HDGNN** | ICLR | 3D graph | GNNs | QM benchmarks ^3OC benchmarks ^1,3 | [OpenReview](https://openreview.net/forum?id=BBD6KXIGJL) |
-| 2024 | **JMP** | ICLR | 3D graph | GNNs | QM benchmarks ^3MD benchmarks ^2OC benchmarks ^1,2Other benchmarks ^4 | [OpenReview](https://openreview.net/forum?id=PfPnugdxup) |
-| 2024 | **MOL-AE** | Proceedings of the 41st International Conference on Machine Learning | 3D graph | Trans. | QM benchmarks ^1-3Classification benchmarks ^1-8Regression benchmarks ^1-3OC benchmarks ^1 | [Scholar](https://scholar.google.com/scholar?q=MOL-AE%3A+Auto-encoder+based+molecular+representation+learning+with+3D+cloze+test+objective) |
-| 2024 | **MOLEBLEND** | ICLR | 2/3D graph | Trans. | QM benchmarks ^3Classification benchmarks ^1-8Other benchmarks ^3 | [OpenReview](https://openreview.net/forum?id=oM7Jbxdk6Z) |
-| 2024 | **Polymer Walk** | ICML | 2D graph | GNNs | Other benchmarks ^9 | [Scholar](https://scholar.google.com/scholar?q=Representing+Molecules+as+Random+Walks+Over+Interpretable+Grammars) |
-| 2024 | **QTAIM** | Digital Discovery | 3D graph | GNNs | QM benchmarks ^2,3Classification benchmarks ^5 | [DOI](https://doi.org/10.1039/D4DD00057A) |
-| 2024 | **SliDe** | ICLR | 3D graph | Trans. | QM benchmarks ^3MD benchmarks ^1Other benchmarks ^5 | [OpenReview](https://openreview.net/forum?id=liKkG1zcWq) |
-| 2024 | **Uni-Mol+** | Nature communications | 3D graph | Trans. | OC benchmarks ^1Other benchmarks ^3 | [Scholar](https://scholar.google.com/scholar?q=Data-driven+quantum+chemical+property+prediction+leveraging+3D+conformations+with+Uni-Mol%2B) |
-| 2024 | **Uni-Mol2** | The Thirty-eighth Annual Conference on Neural Information Processing Systems | 2D graph | Trans. | QM benchmarks ^3Other benchmarks ^2 | [OpenReview](https://openreview.net/forum?id=64V40K2fDv) |
-| 2024 | **UniCorn** | Proceedings of the 41st International Conference on Machine Learning | 2/3D graph | Trans. | QM benchmarks ^3MD benchmarks ^2 | [Scholar](https://scholar.google.com/scholar?q=UniCorn%3A+A+Unified+Contrastive+Learning+Approach+for+Multi-view+Molecular+Representation+Learning) |
-| 2024 | **ViSNet** | Nature Communications | 3D graph | Trans. | QM benchmarks ^3MD benchmarks ^1,2,3Other benchmarks ^8 | [Scholar](https://scholar.google.com/scholar?q=Enhancing+geometric+representations+for+molecules+with+equivariant+vector-scalar+interactive+message+passing) |
-| 2023 | **Allegro** | Nature Communications | 1D desc. | MLP | QM benchmarks ^3MD benchmarks ^2Other benchmarks ^7 | [Scholar](https://scholar.google.com/scholar?q=Learning+local+equivariant+representations+for+large-scale+atomistic+dynamics) |
-| 2023 | **Equiformer** | ICLR | 3D graph | GT | QM benchmarks ^3MD benchmarks ^1OC benchmarks ^1 | [OpenReview](https://openreview.net/forum?id=KwmPfARgOTD) |
-| 2023 | **Geo-DEG** | ICML | 2D graph | GNNs | Classification benchmarks ^2Regression benchmarks ^2,3Other benchmarks ^9 | [Scholar](https://scholar.google.com/scholar?q=Hierarchical+grammar-induced+geometry+for+data-efficient+molecular+property+prediction) |
-| 2023 | **Molformer** | AAAI | 2/3D graph | Trans. | QM benchmarks ^1,2,3Classification benchmarks ^2,6,8 | [Scholar](https://scholar.google.com/scholar?q=Molformer%3A+Motif-based+transformer+on+3d+heterogeneous+molecular+graphs) |
-| 2023 | **Transformer-M** | ICLR | 2/3D graph | Trans. | QM benchmarks ^3MD benchmarks ^1Other benchmarks ^3 | [OpenReview](https://openreview.net/forum?id=vZTp1oPV3PC) |
-| 2023 | **Uni-Mol** | ICLR | 3D graph | Trans. | QM benchmarks ^1-3Classification benchmarks ^1-8Regression benchmarks ^1-3 | [OpenReview](https://openreview.net/forum?id=6K2RM6wVqKu) |
-| 2022 | **3D Infomax** | Proceedings of the 39th International Conference on Machine Learning | 2/3D graph | PNA | QM benchmarks ^3Other benchmarks ^1 | [PMLR](https://proceedings.mlr.press/v162/stark22a.html) |
-| 2022 | **GEM** | Nature Machine Intelligence | 2/3D graph | GeoGNN | QM benchmarks ^1-3Classification benchmarks ^1-8Regression benchmarks ^1-3 | [Scholar](https://scholar.google.com/scholar?q=Geometry-enhanced+molecular+representation+learning+for+property+prediction) |
-| 2022 | **GeomGCL** | Proceedings of the AAAI conference on artificial intelligence | 2/3D graph | GNNs | Classification benchmarks ^2,3,6,8Regression benchmarks ^1-3 | [Scholar](https://scholar.google.com/scholar?q=Geomgcl%3A+Geometric+graph+contrastive+learning+for+molecular+property+prediction) |
-| 2022 | **GraphMAE** | KDD | 2D graph | GNNs | Classification benchmarks ^1-8 | [Scholar](https://scholar.google.com/scholar?q=Graphmae%3A+Self-supervised+masked+graph+autoencoders) |
-| 2022 | **GraphMVP** | International Conference on Learning Representations | 2/3D graph | GNNs | Classification benchmarks ^1-8 | [OpenReview](https://openreview.net/forum?id=xQUe1pOKPam) |
-| 2022 | **MolCLR** | Nature Machine Intelligence | 2D graph | GNNs | Classification benchmarks ^2-8Regression benchmarks ^1-3 | [Scholar](https://scholar.google.com/scholar?q=Molecular+contrastive+learning+of+representations+via+graph+neural+networks) |
-| 2022 | **MoleOOD** | NeurIPS | 2D graph | GNNs | Classification benchmarks ^3,4,6,8 | [Paper](https://proceedings.neurips.cc/paper_files/paper/2022/file/547108084f0c2af39b956f8eadb75d1b-Paper-Conference.pdf) |
-| 2022 | **SphereNet** | International Conference on Learning Representations | 3D graph | GNNs | QM benchmarks ^3MD benchmarks ^1OC benchmarks ^3 | [Scholar](https://scholar.google.com/scholar?q=Spherical+message+passing+for+3d+molecular+graphs) |
-| 2022 | **TorchMD-Net** | International Conference on Learning Representations | 3D graph | Trans. | QM benchmarks ^3MD benchmarks ^1Other benchmarks ^5 | [OpenReview](https://openreview.net/forum?id=zNHzqZ9wrRB) |
-| 2021 | **PaiNN** | Proceedings of the 38th International Conference on Machine Learning | 3D graph | MPNN | QM benchmarks ^3MD benchmarks ^1 | [PMLR](https://proceedings.mlr.press/v139/schutt21a.html) |
-| 2020 | **DimeNet** | International Conference on Learning Representations | 3D graph | GNNs | QM benchmarks ^3MD benchmarks ^1 | [OpenReview](https://openreview.net/forum?id=B1eWbxStPH) |
-| 2020 | **InfoGraph** | International Conference on Learning Representations | 2D graph | GIN | QM benchmarks ^3 | [OpenReview](https://openreview.net/forum?id=r1lfF2NYvH) |
-
+| 2026 | **UniField** | TBD | 3D/ED | Trans. | Regression | [arXiv](https://arxiv.org/abs/2605.24013) |
+| 2025 | **E2Former** | NeurIPS | 2/3D graph | GT | Regression | [Paper](https://proceedings.neurips.cc/paper_files/paper/2025/file/21f7b745f73ce0d1f9bcea7f40b1388e-Paper-Conference.pdf) |
+| 2025 | **EDG** | Proceedings of the Thirty-Fourth International Joint Conference on Artificial Intelligence | 3D/ED | KD/GNNs | Regression | [Scholar](https://scholar.google.com/scholar?q=Electron+density-enhanced+molecular+geometry+learning) |
+| 2025 | **GotenNet** | ICLR | 3D graph | GNNs | Regression | [OpenReview](https://openreview.net/forum?id=5wxCQDtbMo) |
+| 2025 | **MolMCL-GCN** | Nature Communications | 2D graph | GT | Classification | [Scholar](https://scholar.google.com/scholar?q=Multi-channel+learning+for+integrating+structural+hierarchies+into+context-dependent+molecular+representation) |
+| 2025 | **SCHull** | ICLR | 3D graph | GNNs | Regression | [OpenReview](https://openreview.net/forum?id=OIvg3MqWX2) |
+| 2024 | **GraphSAM** | ICLR | 2D graph | GT | Classification / Regression | [OpenReview](https://openreview.net/forum?id=Od39h4XQ3Y) |
+| 2024 | **HDGNN** | ICLR | 3D graph | GNNs | Regression | [OpenReview](https://openreview.net/forum?id=BBD6KXIGJL) |
+| 2024 | **JMP** | ICLR | 3D graph | GNNs | Regression | [OpenReview](https://openreview.net/forum?id=PfPnugdxup) |
+| 2024 | **MOL-AE** | Proceedings of the 41st International Conference on Machine Learning | 3D graph | Trans. | Classification / Regression | [Scholar](https://scholar.google.com/scholar?q=MOL-AE%3A+Auto-encoder+based+molecular+representation+learning+with+3D+cloze+test+objective) |
+| 2024 | **MOLEBLEND** | ICLR | 2/3D graph | Trans. | Classification / Regression | [OpenReview](https://openreview.net/forum?id=oM7Jbxdk6Z) |
+| 2024 | **Polymer Walk** | ICML | 2D graph | GNNs | Regression | [Scholar](https://scholar.google.com/scholar?q=Representing+Molecules+as+Random+Walks+Over+Interpretable+Grammars) |
+| 2024 | **QTAIM** | Digital Discovery | 3D graph | GNNs | Classification / Regression | [DOI](https://doi.org/10.1039/D4DD00057A) |
+| 2024 | **SliDe** | ICLR | 3D graph | Trans. | Regression | [OpenReview](https://openreview.net/forum?id=liKkG1zcWq) |
+| 2024 | **Uni-Mol+** | Nature communications | 3D graph | Trans. | Regression | [Scholar](https://scholar.google.com/scholar?q=Data-driven+quantum+chemical+property+prediction+leveraging+3D+conformations+with+Uni-Mol%2B) |
+| 2024 | **Uni-Mol2** | The Thirty-eighth Annual Conference on Neural Information Processing Systems | 2D graph | Trans. | Regression | [OpenReview](https://openreview.net/forum?id=64V40K2fDv) |
+| 2024 | **UniCorn** | Proceedings of the 41st International Conference on Machine Learning | 2/3D graph | Trans. | Regression | [Scholar](https://scholar.google.com/scholar?q=UniCorn%3A+A+Unified+Contrastive+Learning+Approach+for+Multi-view+Molecular+Representation+Learning) |
+| 2024 | **ViSNet** | Nature Communications | 3D graph | Trans. | Regression | [Scholar](https://scholar.google.com/scholar?q=Enhancing+geometric+representations+for+molecules+with+equivariant+vector-scalar+interactive+message+passing) |
+| 2023 | **Allegro** | Nature Communications | 1D desc. | MLP | Regression | [Scholar](https://scholar.google.com/scholar?q=Learning+local+equivariant+representations+for+large-scale+atomistic+dynamics) |
+| 2023 | **Equiformer** | ICLR | 3D graph | GT | Regression | [OpenReview](https://openreview.net/forum?id=KwmPfARgOTD) |
+| 2023 | **Geo-DEG** | ICML | 2D graph | GNNs | Classification / Regression | [Scholar](https://scholar.google.com/scholar?q=Hierarchical+grammar-induced+geometry+for+data-efficient+molecular+property+prediction) |
+| 2023 | **Molformer** | AAAI | 2/3D graph | Trans. | Classification / Regression | [Scholar](https://scholar.google.com/scholar?q=Molformer%3A+Motif-based+transformer+on+3d+heterogeneous+molecular+graphs) |
+| 2023 | **Transformer-M** | ICLR | 2/3D graph | Trans. | Regression | [OpenReview](https://openreview.net/forum?id=vZTp1oPV3PC) |
+| 2023 | **Uni-Mol** | ICLR | 3D graph | Trans. | Classification / Regression | [OpenReview](https://openreview.net/forum?id=6K2RM6wVqKu) |
+| 2022 | **3D Infomax** | Proceedings of the 39th International Conference on Machine Learning | 2/3D graph | PNA | Regression | [PMLR](https://proceedings.mlr.press/v162/stark22a.html) |
+| 2022 | **GEM** | Nature Machine Intelligence | 2/3D graph | GeoGNN | Classification / Regression | [Scholar](https://scholar.google.com/scholar?q=Geometry-enhanced+molecular+representation+learning+for+property+prediction) |
+| 2022 | **GeomGCL** | Proceedings of the AAAI conference on artificial intelligence | 2/3D graph | GNNs | Classification / Regression | [Scholar](https://scholar.google.com/scholar?q=Geomgcl%3A+Geometric+graph+contrastive+learning+for+molecular+property+prediction) |
+| 2022 | **GraphMAE** | KDD | 2D graph | GNNs | Classification | [Scholar](https://scholar.google.com/scholar?q=Graphmae%3A+Self-supervised+masked+graph+autoencoders) |
+| 2022 | **GraphMVP** | International Conference on Learning Representations | 2/3D graph | GNNs | Classification | [OpenReview](https://openreview.net/forum?id=xQUe1pOKPam) |
+| 2022 | **MolCLR** | Nature Machine Intelligence | 2D graph | GNNs | Classification / Regression | [Scholar](https://scholar.google.com/scholar?q=Molecular+contrastive+learning+of+representations+via+graph+neural+networks) |
+| 2022 | **MoleOOD** | NeurIPS | 2D graph | GNNs | Classification | [Paper](https://proceedings.neurips.cc/paper_files/paper/2022/file/547108084f0c2af39b956f8eadb75d1b-Paper-Conference.pdf) |
+| 2022 | **SphereNet** | International Conference on Learning Representations | 3D graph | GNNs | Regression | [Scholar](https://scholar.google.com/scholar?q=Spherical+message+passing+for+3d+molecular+graphs) |
+| 2022 | **TorchMD-Net** | International Conference on Learning Representations | 3D graph | Trans. | Regression | [OpenReview](https://openreview.net/forum?id=zNHzqZ9wrRB) |
+| 2021 | **PaiNN** | Proceedings of the 38th International Conference on Machine Learning | 3D graph | MPNN | Regression | [PMLR](https://proceedings.mlr.press/v139/schutt21a.html) |
+| 2020 | **DimeNet** | International Conference on Learning Representations | 3D graph | GNNs | Regression | [OpenReview](https://openreview.net/forum?id=B1eWbxStPH) |
+| 2020 | **InfoGraph** | International Conference on Learning Representations | 2D graph | GIN | Regression | [OpenReview](https://openreview.net/forum?id=r1lfF2NYvH) |
 
 ### Drug--Drug Interaction Prediction (DDI)
 
@@ -364,21 +343,4 @@ The benchmark table is grouped by source collection or downstream task. `Classif
 ├── README.md            # Curated paper list
 ├── CONTRIBUTING.md      # Contribution guideline
 └── CITATION.cff         # Citation metadata
-```
-
-## Contributing
-
-Contributions are welcome. Please open an issue or pull request with the paper title, year, venue, task category, official paper link, and official code link if available. Do not add unofficial or unverified URLs as paper links.
-
-## Citation
-
-If this repository is useful for your work, please cite the accompanying survey:
-
-```bibtex
-@article{hu2026graphstructuredsurvey,
-  title   = {A Comprehensive Survey on Graph-Structured Small-Molecule Drug Discovery and Development with Deep Learning},
-  author  = {Hu, Junwei and Zhang, Wei and Lin, Zhuohao and Yu, Jiajun and Chen, Jiameng and Du, Jiawei and Hu, Wenbin and Li, Kun and Gama, Joao and Wu, Jia},
-  journal = {Transactions on Graph Intelligence and Network Applications},
-  year    = {2026}
-}
 ```

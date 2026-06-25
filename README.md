@@ -26,36 +26,6 @@ Molecular representation learning has evolved from sequence and topology-centere
 
 Suggested tags: `SMILES`, `2D graph`, `3D graph`, `E(3)/SE(3)-equivariant`, `Graph Transformer`, `molecular dynamics`, `electron density`, `omics`, `protein pocket`, `knowledge graph`, `diffusion`, and `foundation model`.
 
-### Drug-Target Interaction and Affinity Prediction (DTI/DTA)
-
-DTI/DTA models estimate whether a small molecule interacts with a biological target and, in affinity settings, how strongly this interaction occurs. Recent methods move from independent drug/protein encoding and simple concatenation toward graph-based drug encoders, protein language models, pocket-aware 3D structures, attention-based fusion, knowledge-enhanced learning, and OOD generalization.
-
-Abbreviations: 3D = three-dimensional; BAN = bilinear attention network; Concat = concatenation; Gen. = generative modeling; GN = gating network; KGE = knowledge graph embedding; MFP = molecular fingerprint; MP = message passing; PLM = protein language model; Seq. = protein sequence; SMILES = simplified molecular-input line-entry system; Trans. = Transformer.
-
-| Year | Method | Venue | Drug | Target | Fusion | Tasks | Paper |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| 2026 | **BioCG** | NeurIPS | SMILES | Seq. | Gen. | Classification | [NeurIPS](https://proceedings.neurips.cc/paper_files/paper/2025/hash/066e4dbfeccb5dc2851acd5eca584937-Abstract-Conference.html) |
-| 2026 | **DrugCMF** | AAAI | SMILES, 3D | Seq., 3D | Attention | Classification | [DOI](https://doi.org/10.1609/aaai.v40i32.39972) |
-| 2026 | **GRAM-DTI** | ICLR | SMILES | Seq. | Concat | Classification | [arXiv](https://arxiv.org/abs/2509.21971) |
-| 2026 | **LigoSpace** | NeurIPS | Graph, 3D | Graph, 3D | MP | Regression | [NeurIPS](https://proceedings.neurips.cc/paper_files/paper/2025/hash/989be684b6315b788a0cc18e2775f045-Abstract-Conference.html) |
-| 2025 | **DTIAM** | Nat. Commun. | Graph | Seq. | Concat | Classification / Regression | [DOI](https://doi.org/10.1038/s41467-025-57828-0) |
-| 2025 | **MoseDTI** | AAAI | Graph | Seq. | Attention | Classification | [arXiv](https://arxiv.org/abs/2503.15796) |
-| 2025 | **R-DTI** | AAAI | SMILES, Graph | Seq., 3D | Concat | Classification | [DOI](https://doi.org/10.1609/aaai.v39i16.33909) |
-| 2024 | **DrugCLIP** | NeurIPS | 3D | 3D Pocket | - | Classification | [OpenReview](https://openreview.net/forum?id=lAbCgNcxm7) |
-| 2024 | **MGNDTI** | J. Chem. Inf. Model. | SMILES, Graph | Seq. | GN | Classification | [DOI](https://doi.org/10.1021/acs.jcim.4c00957) |
-| 2024 | **MlanDTI** | AAAI | SMILES | Seq. | Attention | Classification | [DOI](https://doi.org/10.1609/aaai.v38i1.27786) |
-| 2024 | **Otter-Knowledge** | AAAI | SMILES, MFP | Seq. | Concat | Regression | [DOI](https://doi.org/10.1609/aaai.v38i9.28924) |
-| 2024 | **PSC-CPI** | AAAI | Graph | Seq., Graph | MP | Regression | [DOI](https://doi.org/10.1609/aaai.v38i1.27784) |
-| 2024 | **SiamDTI** | arXiv | SMILES | Seq. | BAN | Classification | [arXiv](https://arxiv.org/abs/2405.14545) |
-| 2023 | **DrugBAN** | Nat. Mach. Intell. | Graph | Seq. | BAN | Classification | [DOI](https://doi.org/10.1038/s42256-022-00605-1) |
-| 2023 | **Perceiver-CPI** | Bioinformatics | SMILES, MFP | Seq. | Attention | Regression | [DOI](https://doi.org/10.1093/bioinformatics/btac731) |
-| 2022 | **APLM** | bioRxiv | MFP | Seq. | Concat | Classification | [DOI](https://doi.org/10.1101/2022.11.03.515084) |
-| 2022 | **Cross-interaction** | Bioinformatics | Graph | Seq., Graph | Concat | Classification | [DOI](https://doi.org/10.1093/bioinformatics/btac470) |
-| 2022 | **DTI-MGNN** | Brief. Bioinform. | SMILES | Seq. | Attention | Classification | [DOI](https://doi.org/10.1093/bib/bbab346) |
-| 2022 | **HyperAttentionDTI** | Bioinformatics | SMILES | Seq. | Attention | Classification | [Paper](https://academic.oup.com/bioinformatics/article/38/3/655/6401997) |
-| 2021 | **MolTrans** | Bioinformatics | SMILES | Seq. | MP | Classification | [Paper](https://academic.oup.com/bioinformatics/article/37/6/830/5929692) |
-| 2020 | **Drug-VQA** | Nat. Mach. Intell. | SMILES | Distance Map | Concat | Regression | [DOI](https://doi.org/10.1038/s42256-020-0152-y) |
-
 
 ## Lead Discovery Tasks
 

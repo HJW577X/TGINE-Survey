@@ -32,7 +32,7 @@ Suggested tags: `SMILES`, `2D graph`, `3D graph`, `E(3)/SE(3)-equivariant`, `Gra
 
 DTI/DTA models estimate whether a small molecule interacts with a biological target and, in affinity settings, how strongly this interaction occurs. Recent methods move from independent drug/protein encoding and simple concatenation toward graph-based drug encoders, protein language models, pocket-aware 3D structures, attention-based fusion, knowledge-enhanced learning, and OOD generalization.
 
-Abbreviations: BAN = bilinear attention network; Concat = concatenation; Gen. = generative modeling; GN = gating network; KGE = knowledge graph embedding; MFP = molecular fingerprint; MP = message passing; PLM = protein language model; Seq. = protein sequence; Trans. = Transformer.
+Abbreviations: 3D = three-dimensional; BAN = bilinear attention network; Concat = concatenation; Gen. = generative modeling; GN = gating network; KGE = knowledge graph embedding; MFP = molecular fingerprint; MP = message passing; PLM = protein language model; Seq. = protein sequence; SMILES = simplified molecular-input line-entry system; Trans. = Transformer.
 
 | Year | Method | Venue | Drug | Target | Fusion | Tasks | Paper |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -161,7 +161,7 @@ MPP estimates physicochemical, quantum-mechanical, pharmacokinetic, and toxicity
 
 DDI prediction models synergistic effects, antagonistic interactions, and adverse events induced by combinations of drugs. Recent approaches incorporate graph neural networks, knowledge graphs, contrastive learning, causal inference, reinforcement learning, neural architecture search, and language-model-assisted reasoning.
 
-Abbreviations: CL = contrastive learning; GIB = graph information bottleneck; IGIB = interaction graph information bottleneck; KG = knowledge graph; LLMs = large language models; MI = mutual information; NAS = neural architecture search; NLG = natural language generation; RL = reinforcement learning; SEL = semantic enhanced learning; SSL = self-supervised learning; SSP = structural similarity profile; Trans. = Transformer.
+Abbreviations: 2D = two-dimensional; CL = contrastive learning; GIB = graph information bottleneck; GNN = graph neural network; GNNs = graph neural networks; IGIB = interaction graph information bottleneck; KG = knowledge graph; LLMs = large language models; MI = mutual information; NAS = neural architecture search; NLG = natural language generation; RL = reinforcement learning; SEL = semantic enhanced learning; SMILES = simplified molecular-input line-entry system; SSL = self-supervised learning; SSP = structural similarity profile; Trans. = Transformer.
 
 | Year | Method | Venue | Drug | Technique | Tasks | Paper |
 | --- | --- | --- | --- | --- | --- | --- |

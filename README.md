@@ -36,10 +36,10 @@ Abbreviations: BAN = bilinear attention network; Concat = concatenation; Gen. = 
 
 | Year | Method | Venue | Drug | Target | Fusion | Tasks | Paper |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 2026 | **BioCG** | NeurIPS | SMILES | Seq. | Gen. | Classification | [Scholar](https://scholar.google.com/scholar?q=BioCG%3A+Constrained+Generative+Modeling+for+Biochemical+Interaction+Prediction) |
+| 2026 | **BioCG** | NeurIPS | SMILES | Seq. | Gen. | Classification | [NeurIPS](https://proceedings.neurips.cc/paper_files/paper/2025/hash/066e4dbfeccb5dc2851acd5eca584937-Abstract-Conference.html) |
 | 2026 | **DrugCMF** | AAAI | SMILES, 3D | Seq., 3D | Attention | Classification | [DOI](https://doi.org/10.1609/aaai.v40i32.39972) |
 | 2026 | **GRAM-DTI** | ICLR | SMILES | Seq. | Concat | Classification | [arXiv](https://arxiv.org/abs/2509.21971) |
-| 2026 | **LigoSpace** | NeurIPS | Graph, 3D | Graph, 3D | MP | Regression | [Scholar](https://scholar.google.com/scholar?q=Enhancing+bioactivity+prediction+via+spatial+emptiness+representation+of+protein-ligand+complex+and+union+of+multiple+pockets) |
+| 2026 | **LigoSpace** | NeurIPS | Graph, 3D | Graph, 3D | MP | Regression | [NeurIPS](https://proceedings.neurips.cc/paper_files/paper/2025/hash/989be684b6315b788a0cc18e2775f045-Abstract-Conference.html) |
 | 2025 | **DTIAM** | Nat. Commun. | Graph | Seq. | Concat | Classification / Regression | [DOI](https://doi.org/10.1038/s41467-025-57828-0) |
 | 2025 | **MoseDTI** | AAAI | Graph | Seq. | Attention | Classification | [arXiv](https://arxiv.org/abs/2503.15796) |
 | 2025 | **R-DTI** | AAAI | SMILES, Graph | Seq., 3D | Concat | Classification | [DOI](https://doi.org/10.1609/aaai.v39i16.33909) |
@@ -167,7 +167,7 @@ Abbreviations: CL = contrastive learning; GIB = graph information bottleneck; IG
 | --- | --- | --- | --- | --- | --- | --- |
 | 2026 | **PC-DDI** | AAAI | Graph | GNNs, Causal | Multi-class | [DOI](https://doi.org/10.1609/aaai.v40i25.39229) |
 | 2026 | **RISE-DDI** | AAAI | Graph | GNNs, RL | Multi-class | [DOI](https://doi.org/10.1609/aaai.v40i2.37105) |
-| 2026 | **S2VM** | NeurIPS | 2D Image | Trans., SSL | Multi-class | [Scholar](https://scholar.google.com/scholar?q=Self-supervised+Blending+Structural+Context+of+Visual+Molecules+for+Robust+Drug+Interaction+Prediction) |
+| 2026 | **S2VM** | NeurIPS | 2D Image | Trans., SSL | Multi-class | [NeurIPS](https://proceedings.neurips.cc/paper_files/paper/2025/hash/c0ebffad509ae02bd60340690b1fdd5d-Abstract-Conference.html) |
 | 2025 | **ExDDI** | AAAI | SMILES, Text | Trans., NLG | Classification / Generation | [DOI](https://doi.org/10.1609/aaai.v39i24.34709) |
 | 2025 | **K-Paths** | KDD | KG Entity | Path, LLMs, GNNs | Multi-class | [DOI](https://doi.org/10.1145/3711896.3737011) |
 | 2025 | **MOTOR** | AAAI | Graph | GNNs, Motif | Multi-class | [DOI](https://doi.org/10.1609/aaai.v39i1.32097) |

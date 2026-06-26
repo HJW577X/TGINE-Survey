@@ -37,27 +37,27 @@ Abbreviations: 3D = three-dimensional; BAN = bilinear attention network; Concat 
 
 | Year | Method | Venue | Drug | Target | Fusion | Tasks |
 | --- | --- | --- | --- | --- | --- | --- |
-| 2026 | **[BioCG](https://proceedings.neurips.cc/paper_files/paper/2025/hash/066e4dbfeccb5dc2851acd5eca584937-Abstract-Conference.html)** | NeurIPS | SMILES | Seq. | Gen. | Classification |
-| 2026 | **[DrugCMF](https://doi.org/10.1609/aaai.v40i32.39972)** | AAAI | SMILES, 3D | Seq., 3D | Attention | Classification |
-| 2026 | **[GRAM-DTI](https://arxiv.org/abs/2509.21971)** | ICLR | SMILES | Seq. | Concat | Classification |
-| 2026 | **[LigoSpace](https://proceedings.neurips.cc/paper_files/paper/2025/hash/989be684b6315b788a0cc18e2775f045-Abstract-Conference.html)** | NeurIPS | Graph, 3D | Graph, 3D | MP | Regression |
-| 2025 | **[DTIAM](https://doi.org/10.1038/s41467-025-57828-0)** | Nat. Commun. | Graph | Seq. | Concat | Classification / Regression |
-| 2025 | **[MoseDTI](https://arxiv.org/abs/2503.15796)** | AAAI | Graph | Seq. | Attention | Classification |
-| 2025 | **[R-DTI](https://doi.org/10.1609/aaai.v39i16.33909)** | AAAI | SMILES, Graph | Seq., 3D | Concat | Classification |
-| 2024 | **[DrugCLIP](https://openreview.net/forum?id=lAbCgNcxm7)** | NeurIPS | 3D | 3D Pocket | - | Classification |
-| 2024 | **[MGNDTI](https://doi.org/10.1021/acs.jcim.4c00957)** | J. Chem. Inf. Model. | SMILES, Graph | Seq. | GN | Classification |
-| 2024 | **[MlanDTI](https://doi.org/10.1609/aaai.v38i1.27786)** | AAAI | SMILES | Seq. | Attention | Classification |
-| 2024 | **[Otter-Knowledge](https://doi.org/10.1609/aaai.v38i9.28924)** | AAAI | SMILES, MFP | Seq. | Concat | Regression |
-| 2024 | **[PSC-CPI](https://doi.org/10.1609/aaai.v38i1.27784)** | AAAI | Graph | Seq., Graph | MP | Regression |
-| 2024 | **[SiamDTI](https://arxiv.org/abs/2405.14545)** | arXiv | SMILES | Seq. | BAN | Classification |
-| 2023 | **[DrugBAN](https://doi.org/10.1038/s42256-022-00605-1)** | Nat. Mach. Intell. | Graph | Seq. | BAN | Classification |
-| 2023 | **[Perceiver-CPI](https://doi.org/10.1093/bioinformatics/btac731)** | Bioinformatics | SMILES, MFP | Seq. | Attention | Regression |
-| 2022 | **[APLM](https://doi.org/10.1101/2022.11.03.515084)** | bioRxiv | MFP | Seq. | Concat | Classification |
-| 2022 | **[Cross-interaction](https://doi.org/10.1093/bioinformatics/btac470)** | Bioinformatics | Graph | Seq., Graph | Concat | Classification |
-| 2022 | **[DTI-MGNN](https://doi.org/10.1093/bib/bbab346)** | Brief. Bioinform. | SMILES | Seq. | Attention | Classification |
-| 2022 | **[HyperAttentionDTI](https://academic.oup.com/bioinformatics/article/38/3/655/6401997)** | Bioinformatics | SMILES | Seq. | Attention | Classification |
-| 2021 | **[MolTrans](https://academic.oup.com/bioinformatics/article/37/6/830/5929692)** | Bioinformatics | SMILES | Seq. | MP | Classification |
-| 2020 | **[Drug-VQA](https://doi.org/10.1038/s42256-020-0152-y)** | Nat. Mach. Intell. | SMILES | Distance Map | Concat | Regression |
+| 2026 | **BioCG:[BioCG: Constrained Generative Modeling for Biochemical Interaction Prediction](https://proceedings.neurips.cc/paper_files/paper/2025/hash/066e4dbfeccb5dc2851acd5eca584937-Abstract-Conference.html)** | NeurIPS | SMILES | Seq. | Gen. | Classification |
+| 2026 | **DrugCMF:[Bridging the Modality Reliability Gap in Drug-Target Interaction Prediction via a Confidence-aware Multimodal Fusion Framework](https://doi.org/10.1609/aaai.v40i32.39972)** | AAAI | SMILES, 3D | Seq., 3D | Attention | Classification |
+| 2026 | **GRAM-DTI:[GRAM-DTI: adaptive multimodal representation learning for drug target interaction prediction](https://arxiv.org/abs/2509.21971)** | ICLR | SMILES | Seq. | Concat | Classification |
+| 2026 | **LigoSpace:[Enhancing bioactivity prediction via spatial emptiness representation of protein-ligand complex and union of multiple pockets](https://proceedings.neurips.cc/paper_files/paper/2025/hash/989be684b6315b788a0cc18e2775f045-Abstract-Conference.html)** | NeurIPS | Graph, 3D | Graph, 3D | MP | Regression |
+| 2025 | **DTIAM:[DTIAM: a unified framework for predicting drug-target interactions, binding affinities and drug mechanisms](https://doi.org/10.1038/s41467-025-57828-0)** | Nat. Commun. | Graph | Seq. | Concat | Classification / Regression |
+| 2025 | **MoseDTI:[Blend the Separated: Mixture of Synergistic Experts for Data-Scarcity Drug-Target Interaction Prediction](https://arxiv.org/abs/2503.15796)** | AAAI | Graph | Seq. | Attention | Classification |
+| 2025 | **R-DTI:[R-DTI: Drug Target Interaction Prediction Based on Second-Order Relevance Exploration](https://doi.org/10.1609/aaai.v39i16.33909)** | AAAI | SMILES, Graph | Seq., 3D | Concat | Classification |
+| 2024 | **DrugCLIP:[DrugCLIP: Contrastive Protein-Molecule Representation Learning for Virtual Screening](https://openreview.net/forum?id=lAbCgNcxm7)** | NeurIPS | 3D | 3D Pocket | - | Classification |
+| 2024 | **MGNDTI:[MGNDTI: A Drug-Target Interaction Prediction Framework Based on Multimodal Representation Learning and the Gating Mechanism](https://doi.org/10.1021/acs.jcim.4c00957)** | J. Chem. Inf. Model. | SMILES, Graph | Seq. | GN | Classification |
+| 2024 | **MlanDTI:[Multilevel Attention Network with Semi-supervised Domain Adaptation for Drug-Target Prediction](https://doi.org/10.1609/aaai.v38i1.27786)** | AAAI | SMILES | Seq. | Attention | Classification |
+| 2024 | **Otter-Knowledge:[Knowledge Enhanced Representation Learning for Drug Discovery](https://doi.org/10.1609/aaai.v38i9.28924)** | AAAI | SMILES, MFP | Seq. | Concat | Regression |
+| 2024 | **PSC-CPI:[PSC-CPI: Multi-Scale Protein Sequence-Structure Contrasting for Efficient and Generalizable Compound-Protein Interaction Prediction](https://doi.org/10.1609/aaai.v38i1.27784)** | AAAI | Graph | Seq., Graph | MP | Regression |
+| 2024 | **SiamDTI:[A Cross-Field Fusion Strategy for Drug-Target Interaction Prediction](https://arxiv.org/abs/2405.14545)** | arXiv | SMILES | Seq. | BAN | Classification |
+| 2023 | **DrugBAN:[Interpretable bilinear attention network with domain adaptation improves drug-target prediction](https://doi.org/10.1038/s42256-022-00605-1)** | Nat. Mach. Intell. | Graph | Seq. | BAN | Classification |
+| 2023 | **Perceiver-CPI:[Perceiver CPI: a nested cross-attention network for compound-protein interaction prediction](https://doi.org/10.1093/bioinformatics/btac731)** | Bioinformatics | SMILES, MFP | Seq. | Attention | Regression |
+| 2022 | **APLM:[Adapting protein language models for rapid DTI prediction](https://doi.org/10.1101/2022.11.03.515084)** | bioRxiv | MFP | Seq. | Concat | Classification |
+| 2022 | **Cross-interaction:[Cross-modality and self-supervised protein embedding for compound-protein affinity and contact prediction](https://doi.org/10.1093/bioinformatics/btac470)** | Bioinformatics | Graph | Seq., Graph | Concat | Classification |
+| 2022 | **DTI-MGNN:[Drug-target interaction predication via multi-channel graph neural networks](https://doi.org/10.1093/bib/bbab346)** | Brief. Bioinform. | SMILES | Seq. | Attention | Classification |
+| 2022 | **HyperAttentionDTI:[HyperAttentionDTI: improving drug-protein interaction prediction by sequence-based deep learning with attention mechanism](https://academic.oup.com/bioinformatics/article/38/3/655/6401997)** | Bioinformatics | SMILES | Seq. | Attention | Classification |
+| 2021 | **MolTrans:[MolTrans: molecular interaction transformer for drug-target interaction prediction](https://academic.oup.com/bioinformatics/article/37/6/830/5929692)** | Bioinformatics | SMILES | Seq. | MP | Classification |
+| 2020 | **Drug-VQA:[Predicting drug-protein interaction using quasi-visual question answering system](https://doi.org/10.1038/s42256-020-0152-y)** | Nat. Mach. Intell. | SMILES | Distance Map | Concat | Regression |
 
 
 ### Drug Response Prediction (DRP)
@@ -68,26 +68,26 @@ Abbreviations: AUC = area under the curve; C = copy-number variation; E = gene e
 
 | Year | Method | Venue | Cell profiles | Drug | Technique | Tasks |
 | --- | --- | --- | --- | --- | --- | --- |
-| 2026 | **[DeepSADR](https://openreview.net/forum?id=jrFJWpDZvq)** | ICLR | R | Graph | Domain Adaptation | Classification |
-| 2026 | **[MACB-DRP](https://doi.org/10.1609/aaai.v40i24.39048)** | AAAI | E | No constr. | Domain Adaptation | Classification |
-| 2026 | **[MTEGDRP](https://doi.org/10.1021/acs.jmedchem.5c03438)** | J. Med. Chem. | M, E, C, Epi | Graph | Supervised Learning | Regression |
-| 2026 | **[PAM-CDR](https://doi.org/10.1109/JBHI.2026.3658090)** | IEEE JBHI | M, E | Graph | Supervised Learning | Regression |
-| 2025 | **[PASO](https://doi.org/10.1371/journal.pcbi.1012905)** | PLOS Comput. Biol. | M, E, C, Path | Subcomponent | Supervised Learning | Regression |
-| 2025 | **[TransDRP](https://doi.org/10.1609/aaai.v39i1.32032)** | AAAI | E | Graph | Domain Adaptation | Classification |
-| 2025 | **[XGDP](https://doi.org/10.1038/s41598-024-83090-3)** | Sci. Rep. | E | Graph | Supervised Learning | Regression |
-| 2025 | **[drGAT](https://doi.org/10.1089/cmb.2024.0807)** | J. Comput. Biol. | E, Net | Graph | Supervised Learning | Classification |
-| 2024 | **[CLDR](https://arxiv.org/abs/2312.10707)** | IJCAI | No constr. | No constr. | Contrastive Learning | Regression |
-| 2024 | **[DIPK](https://doi.org/10.1093/bib/bbae153)** | Brief. Bioinform. | E, Net | Graph | Pre-training | Regression |
-| 2024 | **[MSDA](https://arxiv.org/abs/2310.12996)** | IJCAI | No constr. | No constr. | Domain Generalization | Regression |
-| 2024 | **[PREDICT-AI](https://doi.org/10.1145/3637528.3671652)** | KDD | M | No constr. | Domain Adaptation | Classification / Regression |
-| 2024 | **[WISER](https://arxiv.org/abs/2405.04078)** | arXiv | E | No constr. | Weak Supervision Learning | Classification |
-| 2023 | **[SubCDR](https://doi.org/10.1371/journal.pcbi.1011382)** | PLOS Comput. Biol. | E, R | Subcomponent | Supervised Learning | Classification / Regression |
-| 2022 | **[CODE-AE](https://doi.org/10.1038/s42256-022-00541-0)** | Nat. Mach. Intell. | R | Not req. | Domain Generalization | Classification |
-| 2022 | **[DeepTTA](https://doi.org/10.1093/bib/bbac100)** | Brief. Bioinform. | E | Subcomponent | Supervised Learning | Classification |
-| 2022 | **[GraphCDR](https://doi.org/10.1093/bib/bbab457)** | Brief. Bioinform. | M, E, C | Graph | Contrastive Learning | Classification |
-| 2022 | **[TGSA](https://doi.org/10.1093/bioinformatics/btab650)** | Bioinformatics | M, E, C, Net | Graph | Supervised Learning | Regression |
-| 2022 | **[scDEAL](https://doi.org/10.1038/s41467-022-34277-7)** | Nat. Commun. | R, S | Not req. | Transfer Learning | Classification |
-| 2019 | **[Dr. VAE](https://doi.org/10.1093/bioinformatics/btz158)** | Bioinformatics | E | No constr. | Supervised Learning | Regression |
+| 2026 | **DeepSADR:[DeepSADR: Deep Transfer Learning with Subsequence Interaction and Adaptive Readout for Cancer Drug Response Prediction](https://openreview.net/forum?id=jrFJWpDZvq)** | ICLR | R | Graph | Domain Adaptation | Classification |
+| 2026 | **MACB-DRP:[Multi-Level Domain Adaptation and Contrastive Domain Isolation with Bilinear Fusion for Patient Drug Response Prediction](https://doi.org/10.1609/aaai.v40i24.39048)** | AAAI | E | No constr. | Domain Adaptation | Classification |
+| 2026 | **MTEGDRP:[MTEGDRP: Interpretable Molecular Self-Attention Transformer and Equivariant Graph Neural Network Based on Multi-Omics Fusion for Drug Response Prediction in Cancer Cell Lines](https://doi.org/10.1021/acs.jmedchem.5c03438)** | J. Med. Chem. | M, E, C, Epi | Graph | Supervised Learning | Regression |
+| 2026 | **PAM-CDR:[PAM-CDR: Property-Aware Multi-Modal Drug Representation Learning for Accurate Cancer Drug Response Prediction](https://doi.org/10.1109/JBHI.2026.3658090)** | IEEE JBHI | M, E | Graph | Supervised Learning | Regression |
+| 2025 | **PASO:[Anticancer drug response prediction integrating multi-omics pathway-based difference features and multiple deep learning techniques](https://doi.org/10.1371/journal.pcbi.1012905)** | PLOS Comput. Biol. | M, E, C, Path | Subcomponent | Supervised Learning | Regression |
+| 2025 | **TransDRP:[Knowledge-guided domain adaptation model for transferring drug response prediction from cell lines to patients](https://doi.org/10.1609/aaai.v39i1.32032)** | AAAI | E | Graph | Domain Adaptation | Classification |
+| 2025 | **XGDP:[Drug discovery and mechanism prediction with explainable graph neural networks](https://doi.org/10.1038/s41598-024-83090-3)** | Sci. Rep. | E | Graph | Supervised Learning | Regression |
+| 2025 | **drGAT:[DRGAT: predicting drug responses via diffusion-based graph attention network](https://doi.org/10.1089/cmb.2024.0807)** | J. Comput. Biol. | E, Net | Graph | Supervised Learning | Classification |
+| 2024 | **CLDR:[CLDR: Contrastive Learning Drug Response Models from Natural Language Supervision](https://arxiv.org/abs/2312.10707)** | IJCAI | No constr. | No constr. | Contrastive Learning | Regression |
+| 2024 | **DIPK:[Improving drug response prediction via integrating gene relationships with deep learning](https://doi.org/10.1093/bib/bbae153)** | Brief. Bioinform. | E, Net | Graph | Pre-training | Regression |
+| 2024 | **MSDA:[Zero-shot Learning of Drug Response Prediction for Preclinical Drug Screening](https://arxiv.org/abs/2310.12996)** | IJCAI | No constr. | No constr. | Domain Generalization | Regression |
+| 2024 | **PREDICT-AI:[Personalised drug identifier for cancer treatment with transformers using auxiliary information](https://doi.org/10.1145/3637528.3671652)** | KDD | M | No constr. | Domain Adaptation | Classification / Regression |
+| 2024 | **WISER:[WISER: Weak supervISion and supErvised Representation learning to improve drug response prediction in cancer](https://arxiv.org/abs/2405.04078)** | arXiv | E | No constr. | Weak Supervision Learning | Classification |
+| 2023 | **SubCDR:[A subcomponent-guided deep learning method for interpretable cancer drug response prediction](https://doi.org/10.1371/journal.pcbi.1011382)** | PLOS Comput. Biol. | E, R | Subcomponent | Supervised Learning | Classification / Regression |
+| 2022 | **CODE-AE:[A context-aware deconfounding autoencoder for robust prediction of personalized clinical drug response from cell-line compound screening](https://doi.org/10.1038/s42256-022-00541-0)** | Nat. Mach. Intell. | R | Not req. | Domain Generalization | Classification |
+| 2022 | **DeepTTA:[DeepTTA: a transformer-based model for predicting cancer drug response](https://doi.org/10.1093/bib/bbac100)** | Brief. Bioinform. | E | Subcomponent | Supervised Learning | Classification |
+| 2022 | **GraphCDR:[GraphCDR: a graph neural network method with contrastive learning for cancer drug response prediction](https://doi.org/10.1093/bib/bbab457)** | Brief. Bioinform. | M, E, C | Graph | Contrastive Learning | Classification |
+| 2022 | **TGSA:[TGSA: protein-protein association-based twin graph neural networks for drug response prediction with similarity augmentation](https://doi.org/10.1093/bioinformatics/btab650)** | Bioinformatics | M, E, C, Net | Graph | Supervised Learning | Regression |
+| 2022 | **scDEAL:[Deep transfer learning of cancer drug responses by integrating bulk and single-cell RNA-seq data](https://doi.org/10.1038/s41467-022-34277-7)** | Nat. Commun. | R, S | Not req. | Transfer Learning | Classification |
+| 2019 | **Dr. VAE:[Dr. VAE: improving drug response prediction via modeling of drug perturbation effects](https://doi.org/10.1093/bioinformatics/btz158)** | Bioinformatics | E | No constr. | Supervised Learning | Regression |
 
 
 ### Drug Perturbation Prediction (DPP)
@@ -98,19 +98,19 @@ Abbreviations: AE = autoencoder; E = gene expression; GAN = generative adversari
 
 | Year | Method | Venue | Cell profiles | Drug | Cell state arch. | Technique | Tasks |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 2026 | **[CRISP](https://doi.org/10.1038/s43588-025-00887-6)** | Nat. Comput. Sci. | S | No constr. | scFM, VAE | Transfer Learning | Classification / Regression |
-| 2026 | **[DeepICER](https://doi.org/10.1016/j.apsb.2026.01.046)** | Acta Pharm. Sin. B | E | Subcomponent | MLP | Supervised Learning | Regression |
-| 2026 | **[PertDit](https://doi.org/10.1002/qub2.70016)** | Quant. Biol. | E | Subcomponent | Diffusion | Supervised Learning | Regression |
-| 2026 | **[Squidiff](https://doi.org/10.1038/s41592-025-02877-y)** | Nat. Methods | S | No constr. | Diffusion | Supervised Learning | Regression |
-| 2026 | **[XPert](https://doi.org/10.1038/s42256-025-01165-w)** | Nat. Mach. Intell. | S, E | Subcomponent | Trans. | Supervised Learning | Regression |
-| 2024 | **[CycleCDR](https://doi.org/10.1093/bioinformatics/btae248)** | Bioinformatics | S | No constr. | GAN | Cycle Consistency Learning | Regression |
-| 2024 | **[PRNet](https://doi.org/10.1038/s41467-024-53457-1)** | Nat. Commun. | E | Graph | VAE | Supervised Learning | Regression |
-| 2023 | **[CPA-Screen](https://doi.org/10.15252/msb.202211517)** | Mol. Syst. Biol. | S | No constr. | AE | Supervised Learning | Regression |
-| 2023 | **[CellOT](https://doi.org/10.1038/s41592-023-01969-x)** | Nat. Methods | S | No constr. | Neural OT | Unsupervised Learning | Regression |
-| 2022 | **[ChemCPA](https://doi.org/10.52202/068431-1937)** | NeurIPS | S | Graph | AE | Supervised Learning | Regression |
-| 2021 | **[CPA](https://doi.org/10.1101/2021.04.14.439903)** | bioRxiv | S | No constr. | AE | Supervised Learning | Regression |
-| 2021 | **[DeepCellState](https://doi.org/10.1371/journal.pcbi.1009465)** | PLOS Comput. Biol. | E | No constr. | AE | Unsupervised Learning | Regression |
-| 2019 | **[scGen](https://doi.org/10.1038/s41592-019-0494-8)** | Nat. Methods | S | No constr. | VAE | Unsupervised Learning | Regression |
+| 2026 | **CRISP:[Predicting drug responses of unseen cell types through transfer learning with foundation models](https://doi.org/10.1038/s43588-025-00887-6)** | Nat. Comput. Sci. | S | No constr. | scFM, VAE | Transfer Learning | Classification / Regression |
+| 2026 | **DeepICER:[DeepICER: A deep learning framework for predicting compound-induced gene expression profiles](https://doi.org/10.1016/j.apsb.2026.01.046)** | Acta Pharm. Sin. B | E | Subcomponent | MLP | Supervised Learning | Regression |
+| 2026 | **PertDit:[Predicting drug-perturbed transcriptional responses using multi-conditional diffusion transformer](https://doi.org/10.1002/qub2.70016)** | Quant. Biol. | E | Subcomponent | Diffusion | Supervised Learning | Regression |
+| 2026 | **Squidiff:[Squidiff: predicting cellular development and responses to perturbations using a diffusion model](https://doi.org/10.1038/s41592-025-02877-y)** | Nat. Methods | S | No constr. | Diffusion | Supervised Learning | Regression |
+| 2026 | **XPert:[Modelling drug-induced cellular perturbation responses with a biologically informed dual-branch transformer](https://doi.org/10.1038/s42256-025-01165-w)** | Nat. Mach. Intell. | S, E | Subcomponent | Trans. | Supervised Learning | Regression |
+| 2024 | **CycleCDR:[Predicting single-cell cellular responses to perturbations using cycle consistency learning](https://doi.org/10.1093/bioinformatics/btae248)** | Bioinformatics | S | No constr. | GAN | Cycle Consistency Learning | Regression |
+| 2024 | **PRNet:[Predicting transcriptional responses to novel chemical perturbations using deep generative model for drug discovery](https://doi.org/10.1038/s41467-024-53457-1)** | Nat. Commun. | E | Graph | VAE | Supervised Learning | Regression |
+| 2023 | **CPA-Screen:[Predicting cellular responses to complex perturbations in high-throughput screens](https://doi.org/10.15252/msb.202211517)** | Mol. Syst. Biol. | S | No constr. | AE | Supervised Learning | Regression |
+| 2023 | **CellOT:[Learning single-cell perturbation responses using neural optimal transport](https://doi.org/10.1038/s41592-023-01969-x)** | Nat. Methods | S | No constr. | Neural OT | Unsupervised Learning | Regression |
+| 2022 | **ChemCPA:[Predicting cellular responses to novel drug perturbations at a single-cell resolution](https://doi.org/10.52202/068431-1937)** | NeurIPS | S | Graph | AE | Supervised Learning | Regression |
+| 2021 | **CPA:[Compositional perturbation autoencoder for single-cell response modeling](https://doi.org/10.1101/2021.04.14.439903)** | bioRxiv | S | No constr. | AE | Supervised Learning | Regression |
+| 2021 | **DeepCellState:[DeepCellState: An autoencoder-based framework for predicting cell type specific transcriptional states induced by drug treatment](https://doi.org/10.1371/journal.pcbi.1009465)** | PLOS Comput. Biol. | E | No constr. | AE | Unsupervised Learning | Regression |
+| 2019 | **scGen:[scGen predicts single-cell perturbation responses](https://doi.org/10.1038/s41592-019-0494-8)** | Nat. Methods | S | No constr. | VAE | Unsupervised Learning | Regression |
 
 
 ## Property and Safety Assessment
@@ -168,26 +168,26 @@ Abbreviations: 2D = two-dimensional; CL = contrastive learning; GIB = graph info
 
 | Year | Method | Venue | Drug | Technique | Tasks |
 | --- | --- | --- | --- | --- | --- |
-| 2026 | **[PC-DDI](https://doi.org/10.1609/aaai.v40i25.39229)** | AAAI | Graph | GNNs, Causal | Multi-class |
-| 2026 | **[RISE-DDI](https://doi.org/10.1609/aaai.v40i2.37105)** | AAAI | Graph | GNNs, RL | Multi-class |
-| 2026 | **[S2VM](https://proceedings.neurips.cc/paper_files/paper/2025/hash/c0ebffad509ae02bd60340690b1fdd5d-Abstract-Conference.html)** | NeurIPS | 2D Image | Trans., SSL | Multi-class |
-| 2025 | **[ExDDI](https://doi.org/10.1609/aaai.v39i24.34709)** | AAAI | SMILES, Text | Trans., NLG | Classification / Generation |
-| 2025 | **[K-Paths](https://doi.org/10.1145/3711896.3737011)** | KDD | KG Entity | Path, LLMs, GNNs | Multi-class |
-| 2025 | **[MOTOR](https://doi.org/10.1609/aaai.v39i1.32097)** | AAAI | Graph | GNNs, Motif | Multi-class |
-| 2025 | **[MolecBioNet](https://doi.org/10.1145/3711896.3737163)** | KDD | Graph | GNNs, KG, Pooling, MI | Multi-class |
-| 2025 | **[PHGL-DDI](https://doi.org/10.1016/j.eswa.2025.126408)** | Expert Syst. Appl. | Graph | CL | Multi-class |
-| 2024 | **[CSSE-DDI](https://doi.org/10.52202/079017-3478)** | NeurIPS | Graph | GNNs, NAS | Multi-class |
-| 2024 | **[MKG-FENN](https://doi.org/10.1609/aaai.v38i9.28887)** | AAAI | SMILES | KG | Multi-class |
-| 2024 | **[TIGER](https://doi.org/10.1609/aaai.v38i1.27777)** | AAAI | Graph | GNN | Multi-class |
-| 2024 | **[ZeroDDI](https://arxiv.org/abs/2407.00891)** | arXiv | SMILES | SEL | Recommendation |
-| 2023 | **[CGIB](https://proceedings.mlr.press/v202/lee23e.html)** | ICML | Graph | GIB | Multi-class Regression |
-| 2023 | **[DANN-DDI](https://doi.org/10.1109/TCBB.2022.3172421)** | IEEE/ACM TCBB | Graph | Attention | Multi-class |
-| 2023 | **[IGIB-ISE](https://proceedings.mlr.press/v202/lee23e.html)** | ICML | Graph | IGIB | Multi-class Regression |
-| 2022 | **[DDKG](https://doi.org/10.1093/bib/bbac140)** | Brief. Bioinform. | SMILES, Graph | KG | Multi-class |
-| 2021 | **[CSGNN](https://doi.org/10.24963/ijcai.2021/517)** | IJCAI | Graph | CL | Classification |
-| 2020 | **[BI-GNN](https://arxiv.org/abs/2006.14002)** | arXiv | Graph | GNN | Multi-class |
-| 2020 | **[GoGNN](https://arxiv.org/abs/2005.05537)** | arXiv | Graph | GNN | Classification |
-| 2018 | **[DeepDDI](https://doi.org/10.1073/pnas.1803294115)** | PNAS | SMILES, Text | SSP | Multi-class |
+| 2026 | **PC-DDI:[Closer to Biological Mechanism: Drug-Drug Interaction Prediction from the Perspective of Pharmacophore](https://doi.org/10.1609/aaai.v40i25.39229)** | AAAI | Graph | GNNs, Causal | Multi-class |
+| 2026 | **RISE-DDI:[Informative Subgraph Extraction with Deep Reinforcement Learning for Drug-Drug Interaction Prediction](https://doi.org/10.1609/aaai.v40i2.37105)** | AAAI | Graph | GNNs, RL | Multi-class |
+| 2026 | **S2VM:[Self-supervised Blending Structural Context of Visual Molecules for Robust Drug Interaction Prediction](https://proceedings.neurips.cc/paper_files/paper/2025/hash/c0ebffad509ae02bd60340690b1fdd5d-Abstract-Conference.html)** | NeurIPS | 2D Image | Trans., SSL | Multi-class |
+| 2025 | **ExDDI:[ExDDI: Explaining Drug-Drug Interaction Predictions with Natural Language](https://doi.org/10.1609/aaai.v39i24.34709)** | AAAI | SMILES, Text | Trans., NLG | Classification / Generation |
+| 2025 | **K-Paths:[K-Paths: Reasoning over Graph Paths for Drug Repurposing and Drug Interaction Prediction](https://doi.org/10.1145/3711896.3737011)** | KDD | KG Entity | Path, LLMs, GNNs | Multi-class |
+| 2025 | **MOTOR:[Motif-Oriented Representation Learning with Topology Refinement for Drug-Drug Interaction Prediction](https://doi.org/10.1609/aaai.v39i1.32097)** | AAAI | Graph | GNNs, Motif | Multi-class |
+| 2025 | **MolecBioNet:[Towards Interpretable Drug-Drug Interaction Prediction: A Graph-Based Approach with Molecular and Network-Level Explanations](https://doi.org/10.1145/3711896.3737163)** | KDD | Graph | GNNs, KG, Pooling, MI | Multi-class |
+| 2025 | **PHGL-DDI:[PHGL-DDI: A pre-training based hierarchical graph learning framework for drug-drug interaction prediction](https://doi.org/10.1016/j.eswa.2025.126408)** | Expert Syst. Appl. | Graph | CL | Multi-class |
+| 2024 | **CSSE-DDI:[Customized Subgraph Selection and Encoding for Drug-drug Interaction Prediction](https://doi.org/10.52202/079017-3478)** | NeurIPS | Graph | GNNs, NAS | Multi-class |
+| 2024 | **MKG-FENN:[MKG-FENN: A Multimodal Knowledge Graph Fused End-to-End Neural Network for Accurate Drug-Drug Interaction Prediction](https://doi.org/10.1609/aaai.v38i9.28887)** | AAAI | SMILES | KG | Multi-class |
+| 2024 | **TIGER:[Dual-Channel Learning Framework for Drug-Drug Interaction Prediction via Relation-Aware Heterogeneous Graph Transformer](https://doi.org/10.1609/aaai.v38i1.27777)** | AAAI | Graph | GNN | Multi-class |
+| 2024 | **ZeroDDI:[ZeroDDI: A Zero-Shot Drug-Drug Interaction Event Prediction Method with Semantic Enhanced Learning and Dual-Modal Uniform Alignment](https://arxiv.org/abs/2407.00891)** | arXiv | SMILES | SEL | Recommendation |
+| 2023 | **CGIB:[Conditional graph information bottleneck for molecular relational learning](https://proceedings.mlr.press/v202/lee23e.html)** | ICML | Graph | GIB | Multi-class Regression |
+| 2023 | **DANN-DDI:[Enhancing Drug-Drug Interaction Prediction Using Deep Attention Neural Networks](https://doi.org/10.1109/TCBB.2022.3172421)** | IEEE/ACM TCBB | Graph | Attention | Multi-class |
+| 2023 | **IGIB-ISE:[Conditional graph information bottleneck for molecular relational learning](https://proceedings.mlr.press/v202/lee23e.html)** | ICML | Graph | IGIB | Multi-class Regression |
+| 2022 | **DDKG:[Attention-based Knowledge Graph Representation Learning for Predicting Drug-drug Interactions](https://doi.org/10.1093/bib/bbac140)** | Brief. Bioinform. | SMILES, Graph | KG | Multi-class |
+| 2021 | **CSGNN:[CSGNN: Contrastive Self-Supervised Graph Neural Network for Molecular Interaction Prediction](https://doi.org/10.24963/ijcai.2021/517)** | IJCAI | Graph | CL | Classification |
+| 2020 | **BI-GNN:[Bi-Level Graph Neural Networks for Drug-Drug Interaction Prediction](https://arxiv.org/abs/2006.14002)** | arXiv | Graph | GNN | Multi-class |
+| 2020 | **GoGNN:[GoGNN: Graph of Graphs Neural Network for Predicting Structured Entity Interactions](https://arxiv.org/abs/2005.05537)** | arXiv | Graph | GNN | Classification |
+| 2018 | **DeepDDI:[Deep learning improves prediction of drug-drug and drug-food interactions](https://doi.org/10.1073/pnas.1803294115)** | PNAS | SMILES, Text | SSP | Multi-class |
 
 
 ## Generative Design Loop

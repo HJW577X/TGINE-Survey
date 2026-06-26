@@ -121,16 +121,16 @@ MPP estimates physicochemical, quantum-mechanical, pharmacokinetic, and toxicity
 
 | Year | Method | Venue | Representation | Architecture | Tasks | Paper |
 | --- | --- | --- | --- | --- | --- | --- |
-| 2026 | **UniField** | TBD | 3D/ED | Trans. | Regression | [arXiv](https://arxiv.org/abs/2605.24013) |
-| 2025 | **E2Former** | NeurIPS | 2/3D graph | GT | Regression | [Paper](https://proceedings.neurips.cc/paper_files/paper/2025/file/21f7b745f73ce0d1f9bcea7f40b1388e-Paper-Conference.pdf) |
-| 2025 | **EDG** | Proceedings of the Thirty-Fourth International Joint Conference on Artificial Intelligence | 3D/ED | KD/GNNs | Regression | [Scholar](https://scholar.google.com/scholar?q=Electron+density-enhanced+molecular+geometry+learning) |
-| 2025 | **GotenNet** | ICLR | 3D graph | GNNs | Regression | [OpenReview](https://openreview.net/forum?id=5wxCQDtbMo) |
-| 2025 | **MolMCL-GCN** | Nature Communications | 2D graph | GT | Classification | [Scholar](https://scholar.google.com/scholar?q=Multi-channel+learning+for+integrating+structural+hierarchies+into+context-dependent+molecular+representation) |
-| 2025 | **SCHull** | ICLR | 3D graph | GNNs | Regression | [OpenReview](https://openreview.net/forum?id=OIvg3MqWX2) |
-| 2024 | **GraphSAM** | ICLR | 2D graph | GT | Classification / Regression | [OpenReview](https://openreview.net/forum?id=Od39h4XQ3Y) |
-| 2024 | **HDGNN** | ICLR | 3D graph | GNNs | Regression | [OpenReview](https://openreview.net/forum?id=BBD6KXIGJL) |
-| 2024 | **JMP** | ICLR | 3D graph | GNNs | Regression | [OpenReview](https://openreview.net/forum?id=PfPnugdxup) |
-| 2024 | **MOL-AE** | Proceedings of the 41st International Conference on Machine Learning | 3D graph | Trans. | Classification / Regression | [Scholar](https://scholar.google.com/scholar?q=MOL-AE%3A+Auto-encoder+based+molecular+representation+learning+with+3D+cloze+test+objective) |
+| 2026 | **UniField:[UniField: RBF-Guided Electron Density Fusion for Enhanced Molecular Representations](https://arxiv.org/abs/2605.24013)** | TBD | 3D/ED | Trans. | Regression | [UniField: RBF-Guided Electron Density Fusion for Enhanced Molecular Representations](https://arxiv.org/abs/2605.24013) |
+| 2025 | **E2Former:[E2Former: An Efficient and Equivariant Transformer with Linear-Scaling Tensor Products](https://proceedings.neurips.cc/paper_files/paper/2025/hash/21f7b745f73ce0d1f9bcea7f40b1388e-Abstract-Conference.html)** | NeurIPS | 2/3D graph | GT | Regression | [E2Former: An Efficient and Equivariant Transformer with Linear-Scaling Tensor Products](https://proceedings.neurips.cc/paper_files/paper/2025/hash/21f7b745f73ce0d1f9bcea7f40b1388e-Abstract-Conference.html) |
+| 2025 | **EDG:[Electron Density-enhanced Molecular Geometry Learning](https://www.ijcai.org/proceedings/2025/0872.pdf)** | IJCAI | 3D/ED | KD/GNNs | Regression | [Electron Density-enhanced Molecular Geometry Learning](https://www.ijcai.org/proceedings/2025/0872.pdf) |
+| 2025 | **GotenNet:[GotenNet: Rethinking Efficient 3D Equivariant Graph Neural Networks](https://openreview.net/forum?id=5wxCQDtbMo)** | ICLR | 3D graph | GNNs | Regression | [GotenNet: Rethinking Efficient 3D Equivariant Graph Neural Networks](https://openreview.net/forum?id=5wxCQDtbMo) |
+| 2025 | **MolMCL-GCN:[Multi-channel learning for integrating structural hierarchies into context-dependent molecular representation](https://www.nature.com/articles/s41467-024-55082-4)** | Nature Communications | 2D graph | GT | Classification | [Multi-channel learning for integrating structural hierarchies into context-dependent molecular representation](https://www.nature.com/articles/s41467-024-55082-4) |
+| 2025 | **SCHull:[A Theoretically-Principled Sparse, Connected, and Rigid Graph Representation of Molecules](https://proceedings.iclr.cc/paper_files/paper/2025/hash/59ac7b4faef41e5c49d4fee24f3e8fbb-Abstract-Conference.html)** | ICLR | 3D graph | GNNs | Regression | [A Theoretically-Principled Sparse, Connected, and Rigid Graph Representation of Molecules](https://proceedings.iclr.cc/paper_files/paper/2025/hash/59ac7b4faef41e5c49d4fee24f3e8fbb-Abstract-Conference.html) |
+| 2024 | **GraphSAM:[Efficient Sharpness-Aware Minimization for Molecular Graph Transformer Models](https://openreview.net/forum?id=Od39h4XQ3Y)** | ICLR | 2D graph | GT | Classification / Regression | [Efficient Sharpness-Aware Minimization for Molecular Graph Transformer Models](https://openreview.net/forum?id=Od39h4XQ3Y) |
+| 2024 | **HDGNN:[Hybrid Directional Graph Neural Network for Molecules](https://openreview.net/forum?id=BBD6KXIGJL)** | ICLR | 3D graph | GNNs | Regression | [Hybrid Directional Graph Neural Network for Molecules](https://openreview.net/forum?id=BBD6KXIGJL) |
+| 2024 | **JMP:[From Molecules to Materials: Pre-training Large Generalizable Models for Atomic Property Prediction](https://openreview.net/forum?id=PfPnugdxup)** | ICLR | 3D graph | GNNs | Regression | [From Molecules to Materials: Pre-training Large Generalizable Models for Atomic Property Prediction](https://openreview.net/forum?id=PfPnugdxup) |
+| 2024 | **MOL-AE:[Mol-AE: Auto-Encoder Based Molecular Representation Learning With 3D Cloze Test Objective](https://openreview.net/forum?id=inEuvSg0y1)** | ICML | 3D graph | Trans. | Classification / Regression | [Mol-AE: Auto-Encoder Based Molecular Representation Learning With 3D Cloze Test Objective](https://openreview.net/forum?id=inEuvSg0y1) |
 | 2024 | **MOLEBLEND** | ICLR | 2/3D graph | Trans. | Classification / Regression | [OpenReview](https://openreview.net/forum?id=oM7Jbxdk6Z) |
 | 2024 | **Polymer Walk** | ICML | 2D graph | GNNs | Regression | [Scholar](https://scholar.google.com/scholar?q=Representing+Molecules+as+Random+Walks+Over+Interpretable+Grammars) |
 | 2024 | **QTAIM** | Digital Discovery | 3D graph | GNNs | Classification / Regression | [DOI](https://doi.org/10.1039/D4DD00057A) |
@@ -157,6 +157,8 @@ MPP estimates physicochemical, quantum-mechanical, pharmacokinetic, and toxicity
 | 2021 | **PaiNN** | Proceedings of the 38th International Conference on Machine Learning | 3D graph | MPNN | Regression | [PMLR](https://proceedings.mlr.press/v139/schutt21a.html) |
 | 2020 | **DimeNet** | International Conference on Learning Representations | 3D graph | GNNs | Regression | [OpenReview](https://openreview.net/forum?id=B1eWbxStPH) |
 | 2020 | **InfoGraph** | International Conference on Learning Representations | 2D graph | GIN | Regression | [OpenReview](https://openreview.net/forum?id=r1lfF2NYvH) |
+
+**Architectures : Graph Neural Networks (GNNs), Message Passing Neural Networks (MPNN), Graph Transformer (GT), Transformer (Trans.)**
 
 ### Drug-Drug Interaction Prediction (DDI)
 
